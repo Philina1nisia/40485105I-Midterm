@@ -75,17 +75,11 @@
     
     <section id="stats"> <!--UNHCRstats-->
         <div class="container">
-            <iframe id="unhcr_popstats_embed" style="border: none" src="http://popstats.unhcr.org/dataviz/index.html" width="100%" onload='javascript:iframeResize();'></iframe>
-            <script>
-                window.onresize = function () {
-                    iframeResize();
-                };
-
-                function iframeResize() {
-                    var iw = $('#unhcr_popstats_embed').width();
-                    $('#unhcr_popstats_embed').height(iw / 1.415);
-                };
-            </script>
+            <iframe id="unhcr_popstats_embed" style="border: none"
+src="https://popstats.unhcr.org/dataviz/index.html" width="100%"
+onload='javascript:iframeResize();'></iframe><script>window.onresize = function(){
+iframeResize();}; function iframeResize(){ var iw = $('#unhcr_popstats_embed').width();
+$('#unhcr_popstats_embed').height(iw/1.415);}; </script>
         </div>
     </section>
     
