@@ -73,6 +73,9 @@ p {
 /*    bottom: -80px;*/
 }
 
+#stats{
+    padding-top:30px;
+}
 
 .bg-dark {
     background-color: rgb(64,64,64);
