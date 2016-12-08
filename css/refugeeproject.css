@@ -431,11 +431,29 @@ body {
 }
 
 
+/*gallery title*/
+
+#gallery-top{
+    height: 15%;
+    z-index:-2;
+    background-color: rgb(64,64,64);
+    position: relative;
+    top:20px
+    
+}
+#gallery-title{
+    position:  relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 50%;
+    bottom: -320px;
+    z-index:10;
+}
 
 
 
-
-
+/*gallery hover different*/
 
 #pic1 .hovereffect {
   width: 100%;
