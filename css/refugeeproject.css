@@ -52,11 +52,30 @@ p {
 }
 
 .bg-primary {
-    background-color: cornflowerblue;
+    background-size: cover;
+    background-image:url("../img/head.png");
+    background-color:rgb(80,84,120);
+
+
 }
 
+#statstitlebox{
+    position:static;
+}
+
+#statstitle{
+    position: relative;
+    width:80%;
+    left: 50%;
+    transform: translate(-50%);
+    height: auto;
+
+/*    bottom: -80px;*/
+}
+
+
 .bg-dark {
-    background-color: #222222;
+    background-color: rgb(64,64,64);
     color: white;
 }
 
@@ -116,7 +135,7 @@ header {
 #homeHeading {
     -webkit-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
-    border-right: thick solid cornflowerblue;
+    border-right: thick solid rgb(80,84,120);
     padding-right: 10px;
     font-weight: 600;
     margin-top: 0;
@@ -278,7 +297,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: skyblue;
+    color: rgb(80,84,120);
 }
 
 .no-gutter > [class*='col-'] {
