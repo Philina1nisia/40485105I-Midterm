@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@font-face { font-family: orc; src: url('OCRAEXT.TTF'); } 
+
 html,
 body {
     height: 100%;
@@ -458,6 +460,9 @@ body {
 /*-----------------daimondbuttom----------------*/
 #Dbutton{
     width: 300px;
+    position: relative;
+    left: 48%;
+    transform: translate(-50%,-50%);
 }
 
 .Dhovereffect {
@@ -489,7 +494,8 @@ body {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
-  font-size: 17px;
+  font-size: 50px;
+    font-family: orc;
 }
 
 .Dhovereffect:hover h2 {
