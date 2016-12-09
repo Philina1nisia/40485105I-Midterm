@@ -792,5 +792,20 @@ z-index: 5;
   transform: translate3d(0,0,0);
 } 
 
+#ending{
+    color:rgb(80,84,120);
+    font-weight: bold; 
+}
+#moved{
+    color:dimgrey;
+    float: right
+}
 
+#unhcr{
+    width: 50%;
+    height: auto
+}
 
+#email{
+    color: black
+}
