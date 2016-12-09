@@ -464,7 +464,7 @@ body {
 
 
 #services{
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 
 
@@ -697,7 +697,12 @@ body {
     z-index:-1;
 }
 
-
+#link{
+    position: relative;
+    z-index:10;
+    top:20px;
+    
+}
 
 /*gallery hover different*/
 
