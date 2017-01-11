@@ -1,7 +1,7 @@
 $(function () {
     $('#tofix').affix({
         offset: {
-            top: 900
+            top: 700
         }
     });
     
